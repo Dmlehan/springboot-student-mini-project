@@ -1,5 +1,4 @@
 package com.example.studentapp.model;
-
 import jakarta.persistence.*;
 
 @Entity
@@ -11,7 +10,6 @@ public class Student {
 
     private String name;
     private String email;
-
     public Student() {}
 
     public Student(String name, String email) {
